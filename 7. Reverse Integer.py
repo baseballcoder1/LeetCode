@@ -1,8 +1,10 @@
-# https://github.com/baseballcoder1/LeetCode
-#
-# LeetCode 7: Reverse Integer
-#
-# Dificulty: Medium
+'''
+https://github.com/baseballcoder1/LeetCode
+
+LeetCode 7: Reverse Integer
+
+Difficulty: Medium
+'''
 
 class Solution:
     def reverse(self, x: int) -> int:

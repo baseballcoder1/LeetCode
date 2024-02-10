@@ -1,8 +1,10 @@
-# https://github.com/baseballcoder1/LeetCode
-#
-# LeetCode 172: Factorial Trailing Zeroes
-#
-# Dificulty: Medium
+'''
+https://github.com/baseballcoder1/LeetCode
+
+LeetCode 172: Factorial Trailing Zeroes
+
+Difficulty: Medium
+'''
 
 class Solution:
     def trailingZeroes(self, n: int) -> int:
@@ -23,7 +25,6 @@ class Solution:
 
             num_2 += numfact(i, 2)
             num_5 += numfact(i, 5)
-
             i += 1
         num_10 = min(num_2, num_5)
         return num_10
