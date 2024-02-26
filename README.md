@@ -2,8 +2,12 @@
 LeetCode problems I solved
 
 Currently: 147 problems: 6 hard, 60 medium, rest easy
+
 Introduction to Pandas
+
 Most of 30 Days of Pandas
+
+https://leetcode.com/baseballcoder2024/
 
 No hints or any other help is used
 
