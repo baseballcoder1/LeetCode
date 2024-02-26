@@ -1,7 +1,11 @@
 # LeetCode
-Some LeetCode solutions
+LeetCode problems I solved
 
-I am currently at 132 problems: 5 hard, 48 medium, rest easy. No hints or any other help is used
+Currently: 147 problems: 6 hard, 60 medium, rest easy
+Introduction to Pandas
+Most of 30 Days of Pandas
+
+No hints or any other help is used
 
 I am available for Python work at:
 
