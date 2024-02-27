@@ -8,7 +8,9 @@ Difficulty: Medium
 
 import pandas as pd
 
-def department_highest_salary(employee: pd.DataFrame, department: pd.DataFrame) -> pd.DataFrame:
-    view = employee.merge(department, left_on="departmentId", right_on="id", suffixes=[None, "_"]).rename(columns={"name_": "Department", "name": "Employee", "salary": "Salary"})[["Department", "Employee", "Salary"]]
-    maxsalary = view.groupby("Department")["Salary"].max()
-    return view.merge(maxsalary, on=["Department", "Salary"], how="inner", suffixes=[None, "_y"])[["Department", "Employee", "Salary"]]
+def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
+    column = "getNthHighestSalary(" + str(N) + ")"
+    view = employee.drop_duplicates(subset="salary")
+    if N <= 0 or view.shape[0] < N:
+        return pd.DataFrame([None], columns=[column])
+    return view.sort_values(by="salary", ascending=False).iloc[N-1:N].rename(columns={"salary": column})[[column]]
