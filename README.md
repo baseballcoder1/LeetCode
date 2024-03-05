@@ -1,11 +1,16 @@
 # LeetCode
 LeetCode problems I solved
 
-Currently: 147 problems: 6 hard, 60 medium, rest easy
+Current:
+
+203 problems: 8 hard, 72 medium, rest easy
+LeetCode 75 37/75
+LeetCode Top Interview 150 50/150
+
+Completed:
 
 Introduction to Pandas
-
-Most of 30 Days of Pandas
+30 Days of Pandas
 
 https://leetcode.com/baseballcoder2024/
 
